@@ -149,7 +149,7 @@
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 shoes-categories">
                 <div class="col">
-                    <div class="card h-100 border border-0 shadow-lg">
+                    <div class="card h-100 border border-0 shadow-lg shoes-card">
                         <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Supply 350</h5>
@@ -164,7 +164,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 border-0 shadow-lg">
+                    <div class="card h-100 border-0 shadow-lg shoes-card">
                         <img src="./images/shoes/shoe-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Nike 360</h5>
@@ -179,7 +179,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 border-0 shadow-lg">
+                    <div class="card h-100 border-0 shadow-lg shoes-card">
                         <img src="./images/shoes/shoe-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Red Airmax</h5>
@@ -266,7 +266,8 @@
                         <input type="email" class="form-control" id="exampleInputEmail1"
                             aria-describedby="emailHelp">
                     </div>
-                    <button type="button" class="btn panda-btn-buy-now mt-2">Submit</button>
+                    <button type="button" class="btn panda-btn-buy-nows mt-2" disabled
+                        id="btnDisable">Submit</button>
                 </form>
             </div>
         </section>
@@ -276,6 +277,9 @@
         <p><small>©2023. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
         </p>
     </footer>
+
+    <!-- Panda js external file attached -->
+    <script src="./panda.js"></script>
 
     <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
